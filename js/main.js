@@ -104,36 +104,50 @@ jQuery(document).ready(function ($) {
   }
 });
 
-const jokeRequestBtn = document.querySelector(".button");
-const responseSection = document.querySelector(".response");
-let currentJoke = 0;
+window.onload = function () {
+  const jokeRequestBtn = document.querySelector(".button");
+  const responseSection = document.querySelector(".response");
+  let currentJoke = 0;
 
-const getJoke = function () {
-  const joke = jokes[currentJoke];
-  for (let i = 0; i < joke.length; i++) {
-    var tag = document.createElement("p");
-    var text = document.createTextNode();
-    if (i % 2 == 0) {
-      tag.classList.add("left");
-    } else {
-      tag.classList.add("right");
+  const jokes = [
+    [
+      "Why did the French chef only use one egg in his omelette? Because one egg is un oeuf",
+    ],
+    ["What do you say when you need to leave to use the restroom? Todaloo"],
+    [
+      "What do you say when you're driving and want someone else in the car to spill some embarassing the tea? Pass the awks",
+    ],
+  ];
+
+  const getJoke = function () {
+    const joke = jokes[currentJoke];
+    for (let i = 0; i < joke.length; i++) {
+      var tag = document.createElement("p");
+      var text = document.createTextNode(joke[i]);
+      if (i % 2 == 0) {
+        tag.classList.add("left");
+      } else {
+        tag.classList.add("right");
+      }
+      tag.appendChild(text);
+      responseSection.appendChild(tag);
+      console.log("appended");
     }
-    tag.appendChild(text);
-    responseSection.appendChild(tag);
-  }
 
-  currentJoke++;
+    currentJoke++;
+    if (currentJoke === jokes.length) {
+      currentJoke = 0;
+    }
+  };
+
+  const removePreviousResponse = function () {
+    while (responseSection.firstChild) {
+      responseSection.removeChild(responseSection.lastChild);
+    }
+  };
+
+  jokeRequestBtn.addEventListener("click", function () {
+    removePreviousResponse();
+    getJoke();
+  });
 };
-
-const removePreviousResponse = function () {
-  while (responseSection.firstChild) {
-    responseSection.removeChild(responseSection.lastChild);
-  }
-};
-
-jokeRequestBtn.addEventListener("click", function () {
-  removePreviousResponse();
-  getJoke();
-});
-
-const jokes = [[], [], []];
