@@ -111,11 +111,86 @@ window.onload = function () {
 
   const jokes = [
     [
+      "What's Carl Friedrich Gauss's favorite clothing brand?",
+      "What?",
+      "Tommy Hill-figure! ... like a Gaussian distribution",
+    ],
+    [
       "Why did the French chef only use one egg in his omelette? Because one egg is un oeuf",
     ],
-    ["What do you say when you need to leave to use the restroom? Todaloo"],
+    ["What's the funniest food to eat?", "HaLAL food!"],
+    [
+      "What do you say when you need to leave to use the restroom?",
+      "What?",
+      "Todaloo",
+    ],
+    [
+      "What'd Hagrid say when Harry said he needed to use the lavatory?",
+      "...",
+      "YER A WIZZER, HARRY",
+    ],
     [
       "What do you say when you're driving and want someone else in the car to spill some embarassing the tea? Pass the awks",
+    ],
+    [
+      "Which artist loves to travel the most? Henri de Toulouse Lautrec",
+      "Lautrec? More like... Loves to trek!",
+    ],
+    ["You know what's the most slept-on thing ever?", "What is?", "BEDS"],
+    ["You know how to say female in German?", "How?", "German"],
+    [
+      "You know, some schools don't actuallly offer UROPs",
+      "REALLY? They just don't have Undergraduate Research OPportunities?",
+      "Yeah, instead they have Asias and South Americas and Africas and Antarcticas",
+    ],
+    ["What's the most excitable bread?", "What?", "CHALLAH BREAD"],
+    [
+      "Did you hear that a lot of camera makers have started to incorporate copper into their lenses?",
+      "Really?",
+      "Yeah, they say it helps the camera Cu",
+    ],
+    ["What kind of cars do pet lovers drive?", "Catillacs!"],
+    [
+      "What kind of cars do pet lovers drive when they become professional pet lovers?",
+      "What's a professional pet lover?",
+      "A zookeeper",
+      "OH, then Zoobarus!",
+    ],
+    [
+      "Do you know where the people crazy about writing utensils?",
+      "No, where",
+      "Pennsylmania",
+    ],
+    [
+      "The other day, I heard that there's a book series called Mortal Instruments... what's that about?? Trumpets that die?",
+    ],
+    ["*Looking at something blue* Wow that really blue me away"],
+    ["*Looking at something else blue* Wow that's too good to be blue"],
+    [
+      "What do you say when you're bad at battleship?",
+      "You say your'e bad-at-ship. And also puns.",
+    ],
+    [
+      "What's the best snack for someone studying algorithms?",
+      "What?",
+      "Donuts.. bc they're proofing",
+    ],
+    [
+      "Ya know, one time a group and I were waiting on this fellow named Varun. Naturally we were all wondering where he was",
+      "Sure",
+      "The thing is... I knew where he was. He was on va run",
+    ],
+    ["What do you call your friend Jerry Sun's family?", "A Sun-set!"],
+    [
+      "What do you call Jerry when he's being a little self-centered?",
+      "What?",
+      "Heliocentric!",
+      "Why?",
+      "Because his last name is Sun",
+    ],
+    [
+      "What will FedEx and UPS be called when they finally have a merger?",
+      "FedUP",
     ],
   ];
 

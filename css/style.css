@@ -24,6 +24,7 @@ body {
   font-size: 1.6rem;
   font-family: "Arial", sans-serif;
   color: white;
+  background-image: url("../imgs/sky.jpeg");
 }
 
 a {
@@ -44,7 +45,6 @@ button {
 }
 
 .container {
-  background-image: url("../imgs/sky.jpeg");
   min-height: 400px;
 }
 
