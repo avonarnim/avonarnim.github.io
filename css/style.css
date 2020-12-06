@@ -24,7 +24,11 @@ body {
   font-size: 1.6rem;
   font-family: "Arial", sans-serif;
   color: white;
-  background-image: url("../imgs/sky.jpeg");
+  background: rgb(221, 221, 221);
+}
+
+body > * {
+  flex-shrink: 0;
 }
 
 a {
@@ -45,11 +49,21 @@ button {
 }
 
 .container {
+  background-image: url("../imgs/sky.jpeg");
+  background-position: right 50% top 20%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
   min-height: 400px;
+  flex-grow: 1;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(0%, 0%);
+  transform: translate(0%, 0%);
 }
 
 .center {
-  margin: 24px;
+  margin: 24px auto;
   position: fixed;
   top: 20%;
   left: 50%;
@@ -59,6 +73,8 @@ button {
 
 .response {
   color: #3ca7de;
+  background-color: white;
+  border-radius: 24px;
   font-size: 16px;
   margin: 4px 2px;
 }
