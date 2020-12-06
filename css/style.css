@@ -71,21 +71,41 @@ button {
   transform: translate(-50%, -50%);
 }
 
-.response {
-  color: #3ca7de;
-  background-color: white;
-  border-radius: 24px;
-  font-size: 16px;
-  margin: 4px 2px;
+div.left {
+  text-align: left;
+  float: left;
+  clear: both;
+  max-width: 300px;
+  border-radius: 8px;
+  padding-left: 4px;
+  background-color: #d6d6d6;
+  color: black;
+  margin-top: 100px;
+  margin: 0.25rem 0;
+  width: fit-content;
+  position: relative;
+  right: 20px;
 }
 
-.left {
-  position: absolute;
-  right: 65%;
+div.right {
+  text-align: left;
+  float: right;
+  clear: both;
+  max-width: 300px;
+  border-radius: 8px;
+  padding-top: 0px;
+  padding-left: 4px;
+  background-color: #0099ff;
+  color: #e0ecff;
+  margin: 0.25rem 0;
+  width: fit-content;
+  position: relative;
+  left: 20px;
 }
-.right {
-  position: absolute;
-  left: 65%;
+
+div.left p,
+div.right p {
+  margin: 9px;
 }
 
 .header-section {

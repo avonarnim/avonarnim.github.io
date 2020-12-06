@@ -197,15 +197,17 @@ window.onload = function () {
   const getJoke = function () {
     const joke = jokes[currentJoke];
     for (let i = 0; i < joke.length; i++) {
+      var div = document.createElement("div");
       var tag = document.createElement("p");
       var text = document.createTextNode(joke[i]);
       if (i % 2 == 0) {
-        tag.classList.add("left");
+        div.classList.add("left");
       } else {
-        tag.classList.add("right");
+        div.classList.add("right");
       }
       tag.appendChild(text);
-      responseSection.appendChild(tag);
+      div.appendChild(tag);
+      responseSection.appendChild(div);
       console.log("appended");
     }
 
