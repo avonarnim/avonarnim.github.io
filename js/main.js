@@ -105,9 +105,11 @@ jQuery(document).ready(function ($) {
 });
 
 window.onload = function () {
-  const jokeRequestBtn = document.querySelector(".button");
+  const jokeRequestBtn = document.querySelectorAll(".button")[0];
+  const sayingsRequestBtn = document.querySelectorAll(".button")[1];
   const responseSection = document.querySelector(".response");
   let currentJoke = 0;
+  let currentSaying = 0;
 
   const jokes = [
     [
@@ -194,6 +196,62 @@ window.onload = function () {
     ["What's the funniest food to eat?", "HaLAL food!"],
   ];
 
+  const sayings = [
+    [
+      "Don't go into a dark room to make big decisions",
+      "Heard during the coronavirus pandemic",
+    ],
+    [
+      "I always find that the harder I work, the luckier I am",
+      "During 50 Shades of Grey according to a friend",
+    ],
+    [
+      "The old dreams were good dreams; they didn't work out, but I'm glad I had them",
+      "- Clint Eastwood, The Bridges of Madison County",
+    ],
+    [
+      "If you smell smoke, it's because there's a fire",
+      "From a trailer for a movie entitled The Gentlemen",
+    ],
+    [
+      "What more can you expect of me than the stories I am now telling?",
+      "- D.J. Waldie, Holy Land",
+    ],
+    [
+      "I cannot tell you what I care for. I can only tell you what I fear to lose",
+      "- D.J. Waldie, Holy Land",
+    ],
+    [
+      "At some point in your story grief presents itself. Now, for the first time, your room is empty, not merely unoccupied",
+      "- D.J. Waldie, Holy Land",
+    ],
+    [
+      "Every map is a fiction. Every map offers choices. It's even possible to choose something beautiful.",
+      "- D.J. Waldie, Holy Land",
+    ],
+    [
+      "A lot of students ask me how much detail they should put in a project. I say enough that 5 years from now, you'll be able to read what you wrote and understand it",
+      "- Professor Sergey Lototsky",
+    ],
+    [
+      '"People have been feeling what you\'ve been feeling for thousands of years and sometimes the stakes were even higher" is why history is fun and sometimes scart but also sometimes comforting',
+      "- A friend and her Vietnam history professor",
+    ],
+    [
+      "We cannot hope only to leave our children a bigger car, a bigger bank account. We must hope to give them a sense of what it measn to be a loyal friend, a loving parent, a citizen who leaves his home, his neighborhood, and town better than he found it. What do we want the men and women who work with us to say when we are no longer there? That we are more driven to succeed than anyone around us or that we stopped to ask if a sick child had gotten better and stayed a moment there to trade a moment of friendship",
+      "- George W. Bush, eulogy for George H.W. Bush",
+    ],
+    [
+      "The secret sauce is turnaround time",
+      "- Gavin Jancke, Microsoft Engineer",
+    ],
+    [
+      "You may be upset that you missed some grade cutoff, but if you got a better grade, would you have learned anything more?",
+      "- My dad",
+    ],
+    ["You are the average of the people around you", "- Nanxi Liu"],
+  ];
+
   const getJoke = function () {
     const joke = jokes[currentJoke];
     for (let i = 0; i < joke.length; i++) {
@@ -217,6 +275,31 @@ window.onload = function () {
     }
   };
 
+  const getSaying = function () {
+    const saying = sayings[currentSaying];
+    console.log(saying);
+    for (let i = 0; i < saying.length; i++) {
+      console.log(saying[i]);
+      var div = document.createElement("div");
+      var tag = document.createElement("p");
+      var text = document.createTextNode(saying[i]);
+      if (i % 2 == 0) {
+        div.classList.add("left");
+      } else {
+        div.classList.add("right");
+      }
+      tag.appendChild(text);
+      div.appendChild(tag);
+      responseSection.appendChild(div);
+      console.log("appended");
+    }
+
+    currentSaying++;
+    if (currentSaying === sayings.length) {
+      currentSaying = 0;
+    }
+  };
+
   const removePreviousResponse = function () {
     while (responseSection.firstChild) {
       responseSection.removeChild(responseSection.lastChild);
@@ -226,5 +309,10 @@ window.onload = function () {
   jokeRequestBtn.addEventListener("click", function () {
     removePreviousResponse();
     getJoke();
+  });
+
+  sayingsRequestBtn.addEventListener("click", function () {
+    removePreviousResponse();
+    getSaying();
   });
 };
