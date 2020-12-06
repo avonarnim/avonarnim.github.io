@@ -185,7 +185,7 @@ window.onload = function () {
     ],
     [
       "What will FedEx and UPS be called when they finally have a merger?",
-      "FedUP",
+      "FedUP!",
     ],
     [
       "What's Carl Friedrich Gauss's favorite clothing brand?",
@@ -193,7 +193,9 @@ window.onload = function () {
       "Tommy Hill-figure! ... like a Gaussian distribution",
     ],
     [
-      "Why did the French chef only use one egg in his omelette? Because one egg is un oeuf",
+      "Why did the French chef only use one egg in his omelette?",
+      "Why?",
+      "Because one egg is un oeuf! One egg, by the way, translates to un oeuf",
     ],
     ["What's the funniest food to eat?", "HaLAL food!"],
   ];
