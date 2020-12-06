@@ -115,7 +115,7 @@ window.onload = function () {
     [
       "What do you say when you need to leave to use the restroom?",
       "What?",
-      "Todaloo",
+      "Todaloo!",
     ],
     [
       "What'd Hagrid say when Harry said he needed to use the lavatory?",
@@ -123,14 +123,16 @@ window.onload = function () {
       "YER A WIZZER, HARRY",
     ],
     [
-      "What do you say when you're driving and want someone else in the car to spill some embarassing the tea? Pass the awks",
+      "What do you say when you're driving and want someone else in the car to spill some embarassing the tea?",
+      "What?",
+      "Pass the awks!",
     ],
     [
       "Which artist loves to travel the most? Henri de Toulouse Lautrec",
       "Lautrec? More like... Loves to trek!",
     ],
     ["You know what's the most slept-on thing ever?", "What is?", "BEDS"],
-    ["You know how to say female in German?", "How?", "Gerwoman"],
+    ["You know how to say female in German?", "How?", "Gerwoman!"],
     [
       "You know, some schools don't actuallly offer UROPs",
       "REALLY? They just don't have Undergraduate Research OPportunities?",
@@ -152,7 +154,7 @@ window.onload = function () {
     [
       "Do you know where the people are crazy about writing utensils?",
       "No, where?",
-      "Pennsylmania",
+      "Pennsylmania!",
     ],
     [
       "The other day, I heard that there's a book series called Mortal Instruments... what's that about?? Trumpets that die?",
