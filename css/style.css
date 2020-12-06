@@ -35,25 +35,12 @@ a {
   text-decoration: none;
 }
 
-button {
-  background-color: white;
-  border: none;
-  color: black;
-  padding: 14px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 24px;
-}
-
 .container {
   background-image: url("../imgs/sky.jpeg");
   background-position: right 50% top 20%;
   background-repeat: no-repeat;
   margin: 0 auto;
-  min-height: 400px;
+  min-height: 1000px;
   flex-grow: 1;
   width: 100%;
   top: 50%;
@@ -69,6 +56,18 @@ button {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px auto;
+  border-radius: 24px;
 }
 
 div.left {

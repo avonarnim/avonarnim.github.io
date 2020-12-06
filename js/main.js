@@ -111,15 +111,6 @@ window.onload = function () {
 
   const jokes = [
     [
-      "What's Carl Friedrich Gauss's favorite clothing brand?",
-      "What?",
-      "Tommy Hill-figure! ... like a Gaussian distribution",
-    ],
-    [
-      "Why did the French chef only use one egg in his omelette? Because one egg is un oeuf",
-    ],
-    ["What's the funniest food to eat?", "HaLAL food!"],
-    [
       "What do you say when you need to leave to use the restroom?",
       "What?",
       "Todaloo",
@@ -137,7 +128,7 @@ window.onload = function () {
       "Lautrec? More like... Loves to trek!",
     ],
     ["You know what's the most slept-on thing ever?", "What is?", "BEDS"],
-    ["You know how to say female in German?", "How?", "German"],
+    ["You know how to say female in German?", "How?", "Gerwoman"],
     [
       "You know, some schools don't actuallly offer UROPs",
       "REALLY? They just don't have Undergraduate Research OPportunities?",
@@ -157,8 +148,8 @@ window.onload = function () {
       "OH, then Zoobarus!",
     ],
     [
-      "Do you know where the people crazy about writing utensils?",
-      "No, where",
+      "Do you know where the people are crazy about writing utensils?",
+      "No, where?",
       "Pennsylmania",
     ],
     [
@@ -192,6 +183,15 @@ window.onload = function () {
       "What will FedEx and UPS be called when they finally have a merger?",
       "FedUP",
     ],
+    [
+      "What's Carl Friedrich Gauss's favorite clothing brand?",
+      "What?",
+      "Tommy Hill-figure! ... like a Gaussian distribution",
+    ],
+    [
+      "Why did the French chef only use one egg in his omelette? Because one egg is un oeuf",
+    ],
+    ["What's the funniest food to eat?", "HaLAL food!"],
   ];
 
   const getJoke = function () {
