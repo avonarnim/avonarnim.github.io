@@ -123,16 +123,18 @@ window.onload = function () {
       "YER A WIZZER, HARRY",
     ],
     [
-      "What do you say when you're driving and want someone else in the car to spill some embarassing the tea?",
+      "What do you say when you're driving and want someone else in the car to spill some embarassing tea?",
       "What?",
       "Pass the awks!",
     ],
     [
-      "Which artist loves to travel the most? Henri de Toulouse Lautrec",
+      "Which artist loves to travel the most?",
+      "Who?",
+      "Henri de Toulouse Lautrec!",
       "Lautrec? More like... Loves to trek!",
     ],
     ["You know what's the most slept-on thing ever?", "What is?", "BEDS"],
-    ["You know how to say female in German?", "How?", "Gerwoman!"],
+    ["Do you know how to say female in German?", "How?", "Gerwoman!"],
     [
       "You know, some schools don't actuallly offer UROPs",
       "REALLY? They just don't have Undergraduate Research OPportunities?",
@@ -147,7 +149,7 @@ window.onload = function () {
     ["What kind of cars do pet lovers drive?", "Catillacs!"],
     [
       "What kind of cars do pet lovers drive when they become professional pet lovers?",
-      "What's a professional pet lover?",
+      "... What's a professional pet lover?",
       "A zookeeper",
       "OH, then Zoobarus!",
     ],
@@ -157,13 +159,13 @@ window.onload = function () {
       "Pennsylmania!",
     ],
     [
-      "The other day, I heard that there's a book series called Mortal Instruments... what's that about?? Trumpets that die?",
+      "The other day, I heard that there's a book series called Mortal Instruments. I was like what's that about?? Trumpets that die?",
     ],
     ["*Looking at something blue* Wow that really blue me away"],
     ["*Looking at something else blue* Wow that's too good to be blue"],
     [
       "What do you say when you're bad at battleship?",
-      "You say your'e bad-at-ship. And also puns.",
+      "You say you're bad-at-ship. And also puns.",
     ],
     [
       "What's the best snack for someone studying algorithms?",
@@ -171,7 +173,7 @@ window.onload = function () {
       "Donuts.. bc they're proofing",
     ],
     [
-      "Ya know, one time a group and I were waiting on this fellow named Varun. Naturally we were all wondering where he was",
+      "Ya know, one time a group and I were waiting on this fellow named Varun. Naturally, we were all wondering where he was",
       "Sure",
       "The thing is... I knew where he was. He was on va run",
     ],
