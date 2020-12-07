@@ -204,12 +204,16 @@ window.onload = function () {
 
   const sayings = [
     [
+      "I cannot tell you what I care for. I can only tell you what I fear to lose",
+      "- D.J. Waldie, Holy Land",
+    ],
+    [
       "Don't go into a dark room to make big decisions",
       "Heard during the coronavirus pandemic",
     ],
     [
       "I always find that the harder I work, the luckier I am",
-      "During 50 Shades of Grey according to a friend",
+      "During 50 Shades of Grey (according to a friend)",
     ],
     [
       "The old dreams were good dreams; they didn't work out, but I'm glad I had them",
@@ -224,15 +228,7 @@ window.onload = function () {
       "- D.J. Waldie, Holy Land",
     ],
     [
-      "I cannot tell you what I care for. I can only tell you what I fear to lose",
-      "- D.J. Waldie, Holy Land",
-    ],
-    [
       "At some point in your story grief presents itself. Now, for the first time, your room is empty, not merely unoccupied",
-      "- D.J. Waldie, Holy Land",
-    ],
-    [
-      "Every map is a fiction. Every map offers choices. It's even possible to choose something beautiful.",
       "- D.J. Waldie, Holy Land",
     ],
     [
@@ -240,11 +236,11 @@ window.onload = function () {
       "- Professor Sergey Lototsky",
     ],
     [
-      '"People have been feeling what you\'ve been feeling for thousands of years and sometimes the stakes were even higher" is why history is fun and sometimes scart but also sometimes comforting',
+      '"People have been feeling what you\'ve been feeling for thousands of years and sometimes the stakes were even higher" is why history is fun and sometimes scary but also sometimes comforting',
       "- A friend and her Vietnam history professor",
     ],
     [
-      "We cannot hope only to leave our children a bigger car, a bigger bank account. We must hope to give them a sense of what it measn to be a loyal friend, a loving parent, a citizen who leaves his home, his neighborhood, and town better than he found it. What do we want the men and women who work with us to say when we are no longer there? That we are more driven to succeed than anyone around us or that we stopped to ask if a sick child had gotten better and stayed a moment there to trade a moment of friendship",
+      "We cannot hope only to leave our children a bigger car, a bigger bank account. We must hope to give them a sense of what it measn to be a loyal friend, a loving parent, a citizen who leaves his home, his neighborhood, and town better than he found it. What do we want the men and women who work with us to say when we are no longer there? That we were more driven to succeed than anyone around us or that we stopped to ask if a sick child had gotten better and stayed a moment there to trade a moment of friendship",
       "- George W. Bush, eulogy for George H.W. Bush",
     ],
     [
@@ -252,8 +248,12 @@ window.onload = function () {
       "- Gavin Jancke, Microsoft Engineer",
     ],
     [
-      "You may be upset that you missed some grade cutoff, but if you got a better grade, would you have learned anything more?",
+      "You may be upset that you missed some grade cutoff, but if you were given a better grade, would you have learned anything more?",
       "- My dad",
+    ],
+    [
+      "Every map is a fiction. Every map offers choices. It's even possible to choose something beautiful.",
+      "- D.J. Waldie, Holy Land",
     ],
     ["You are the average of the people around you", "- Nanxi Liu"],
   ];
