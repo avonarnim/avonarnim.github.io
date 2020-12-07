@@ -148,7 +148,7 @@ window.onload = function () {
       "Lautrec? More like... Loves to trek!",
     ],
     ["You know what's the most slept-on thing ever?", "What is?", "BEDS"],
-    ["Do you know how to say female in German?", "How?", "Gerwoman!"],
+    ["Do you know how to say woman in German?", "How?", "Gerwoman!"],
     [
       "You know, some schools don't actuallly offer UROPs",
       "REALLY? They just don't have Undergraduate Research OPportunities?",
