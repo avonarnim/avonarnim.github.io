@@ -113,6 +113,11 @@ window.onload = function () {
 
   const jokes = [
     [
+      "Why do parents make curry for their kids?",
+      "Why?",
+      "Because they want to live vicurryously through them!",
+    ],
+    [
       "What do you say when you need to leave to use the restroom?",
       "What?",
       "Todaloo!",
@@ -126,6 +131,11 @@ window.onload = function () {
       "What do you say when you're driving and want someone else in the car to spill some embarassing tea?",
       "What?",
       "Pass the awks!",
+    ],
+    [
+      "You know why the lighting in the Pantheon is so holy?",
+      "No, why?",
+      "Because it comes through... a hole",
     ],
     [
       "Which artist loves to travel the most?",
