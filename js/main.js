@@ -123,6 +123,20 @@ window.onload = function () {
       "Todaloo!",
     ],
     [
+      "What will FedEx and UPS be called when they finally have a merger?",
+      "FedUP!",
+    ],
+    [
+      "What's Carl Friedrich Gauss's favorite clothing brand?",
+      "What?",
+      "Tommy Hill-figure! ... like a Gaussian distribution",
+    ],
+    [
+      "Why did the French chef only use one egg in his omelette?",
+      "Why?",
+      "Because one egg is un oeuf! One egg, by the way, translates to un oeuf",
+    ],
+    [
       "What'd Hagrid say when Harry said he needed to use the lavatory?",
       "...",
       "YER A WIZZER, HARRY",
@@ -144,7 +158,7 @@ window.onload = function () {
       "Lautrec? More like... Loves to trek!",
     ],
     ["You know what's the most slept-on thing ever?", "What is?", "BEDS"],
-    ["Do you know how to say female in German?", "How?", "Gerwoman!"],
+    ["Do you know how to say woman in German?", "How?", "Gerwoman!"],
     [
       "You know, some schools don't actuallly offer UROPs",
       "REALLY? They just don't have Undergraduate Research OPportunities?",
@@ -194,20 +208,6 @@ window.onload = function () {
       "Heliocentric!",
       "Why?",
       "Because his last name is Sun",
-    ],
-    [
-      "What will FedEx and UPS be called when they finally have a merger?",
-      "FedUP!",
-    ],
-    [
-      "What's Carl Friedrich Gauss's favorite clothing brand?",
-      "What?",
-      "Tommy Hill-figure! ... like a Gaussian distribution",
-    ],
-    [
-      "Why did the French chef only use one egg in his omelette?",
-      "Why?",
-      "Because one egg is un oeuf! One egg, by the way, translates to un oeuf",
     ],
     ["What's the funniest food to eat?", "HaLAL food!"],
   ];
