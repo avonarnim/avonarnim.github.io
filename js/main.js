@@ -117,11 +117,7 @@ window.onload = function () {
       "I don't know, how long?",
       "A Minotaur two",
     ],
-    [
-      "What do you call a buff electromagnet?",
-      "What??",
-      "A swolenoid!"
-    ],
+    ["What do you call a buff electromagnet?", "What??", "A swolenoid!"],
     [
       "Why do parents make curry for their kids?",
       "Why?",
@@ -149,8 +145,8 @@ window.onload = function () {
     [
       "What kind of nut is meant to be bartered for?",
       "... Acorns?",
-      "Nope, cash-ews!"
-    ]
+      "Nope, cash-ews!",
+    ],
     [
       "What do you say when you're driving and want someone else in the car to spill some embarassing tea?",
       "What?",
