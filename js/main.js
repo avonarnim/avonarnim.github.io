@@ -121,7 +121,7 @@ window.onload = function () {
       "What do you call a buff electromagnet?",
       "What??",
       "A swolenoid!"
-    ]
+    ],
     [
       "Why do parents make curry for their kids?",
       "Why?",
