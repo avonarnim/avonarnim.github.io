@@ -261,7 +261,7 @@ window.onload = function () {
       "- A friend and her Vietnam history professor",
     ],
     [
-      "We cannot hope only to leave our children a bigger car, a bigger bank account. We must hope to give them a sense of what it measn to be a loyal friend, a loving parent, a citizen who leaves his home, his neighborhood, and town better than he found it. What do we want the men and women who work with us to say when we are no longer there? That we were more driven to succeed than anyone around us or that we stopped to ask if a sick child had gotten better and stayed a moment there to trade a moment of friendship",
+      "We cannot hope only to leave our children a bigger car, a bigger bank account. We must hope to give them a sense of what it means to be a loyal friend, a loving parent, a citizen who leaves his home, his neighborhood, and town better than he found it. What do we want the men and women who work with us to say when we are no longer there? That we were more driven to succeed than anyone around us or that we stopped to ask if a sick child had gotten better and stayed a moment there to trade a moment of friendship",
       "- George W. Bush, eulogy for George H.W. Bush",
     ],
     [
