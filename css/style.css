@@ -6,8 +6,6 @@ Primary style
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -59,13 +57,10 @@ a {
 }
 
 .response-section {
-  max-width: 20%;
   margin: 60px auto;
   position: relative;
-  top: 300px;
-  left: 10%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  width: 40%;
+  top: 33%;
 }
 
 button {
@@ -84,15 +79,16 @@ div.left {
   text-align: left;
   float: left;
   clear: both;
-  max-width: 300px;
+  max-width: 400px;
   border-radius: 8px;
   padding-left: 4px;
   background-color: #d6d6d6;
   color: black;
   margin: 0.25rem 0;
+  margin-left: 0;
   width: fit-content;
   position: relative;
-  right: 20px;
+  right: 20%;
 }
 
 div.right {
@@ -105,10 +101,11 @@ div.right {
   background-color: #0099ff;
   color: #e0ecff;
   margin: 0.25rem 0;
+  margin-right: 0;
   width: fit-content;
-  max-width: 300px;
+  max-width: 400px;
   position: relative;
-  left: 20px;
+  left: 20%;
 }
 
 div.left p,
@@ -118,40 +115,72 @@ div.right p {
 
 .header-section {
   position: fixed;
-  top: 160px;
+  top: 15%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
-  width: 90%;
-  max-width: 768px;
+  width: 100%;
   text-align: center;
-  margin: 24px 4em auto;
-}
-@media only screen and (min-width: 768px) {
-  .header-section {
-    margin: 5em auto;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .header-section {
-    margin: 6em auto;
-  }
+  margin: 6em auto;
 }
 
 .header {
-  font-size: 3rem;
+  font-size: 6rem;
   line-height: 1.2;
+  font-weight: 300;
 }
-@media only screen and (min-width: 768px) {
-  .header {
-    font-size: 4.4rem;
-    font-weight: 300;
+
+@media only screen and (min-width: 850px) {
+  .header-section {
+    margin: 5em auto;
+    margin-left: 0;
+  }
+  .response-section {
+    max-width: 400px;
+  }
+  div.left {
+    right: 27.5%;
+  }
+  div.right {
+    left: 27.5%;
   }
 }
-@media only screen and (min-width: 1170px) {
-  .header {
-    font-size: 6rem;
+
+@media only screen and (max-width: 850px) {
+  .header-section {
+    margin: 5em auto;
+    margin-left: 0;
+  }
+  div.left {
+    right: 27.5%;
+  }
+  div.right {
+    left: 27.5%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  div.left {
+    margin: 0;
+    max-width: 180px;
+    right: 35%;
+  }
+  div.right {
+    margin: 0;
+    max-width: 180px;
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  div.left {
+    margin: 0;
+    max-width: 180px;
+  }
+  div.right {
+    margin: 0;
+    max-width: 180px;
   }
 }
 
