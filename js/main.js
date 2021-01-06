@@ -225,6 +225,14 @@ window.onload = function () {
 
   const sayings = [
     [
+      "I'll never speak again to many of the people who have loved me into this moment, just as you will never speak to many of the people who loved you into yours now, and so we raise a glass to them and hope that perhaps somehwere they're raising a glass to us",
+      "-John Green, Auld Lang Syne: A History and Remembrance",
+    ],
+    [
+      "If one is generally contracted 80 years, that amounts to 29,220 days on earth. Playing that out, how many times really do I get to look at a tree? 12,395? There has to be an exact number. Let's just say it's 12,395. Absolutely that's a lot, but it is not infinite. And anything less than infinite seems to be measly a number and is not satisfactory.",
+      "Amy Krouse Rosenthal",
+    ],
+    [
       "I cannot tell you what I care for. I can only tell you what I fear to lose",
       "- D.J. Waldie, Holy Land",
     ],
