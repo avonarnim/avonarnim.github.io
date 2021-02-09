@@ -112,6 +112,36 @@ window.onload = function () {
   let currentSaying = 0;
 
   const jokes = [
+    ["What kind of nut is meant to be bartered?", "A cashew!"],
+    [
+      "What's the most affectionate fruit?",
+      "A passion fruit?",
+      "Not quite... a boo-berry!",
+    ],
+    ["What game do Korean kindergarteners play?", "Duk duk dukbokki!"],
+    [
+      "What state producees the most vegetables?",
+      "Cauliflowerniaaaa (if you're reading this, I'm sorry)",
+    ],
+    [
+      "What's a buter manufacterer's favorite celestial body?",
+      "The Milky Way!",
+    ],
+    [
+      "What do you call it when someone's wearing socks and sandals?",
+      "I don't know, what?",
+      "Birken-socks!",
+    ],
+    [
+      "Who's the hungriest character in The Little Mermaid?",
+      "Does this require basic familiarity with Mandarin?",
+      "Yep, it's eh se le!",
+    ],
+    [
+      "Which world leader loves to slam debates with hard data?",
+      "Which?",
+      "Justin True-deau!... Like 'That's true tho",
+    ],
     [
       "How long does it take to go through a labyrinth?",
       "I don't know, how long?",
@@ -224,6 +254,7 @@ window.onload = function () {
   ];
 
   const sayings = [
+    ["You waste years by not being able to waste hours", "- Amos Tversky"],
     [
       "Music washes away from the soul the dust of everyday life",
       "- Berthold Auerbach",
