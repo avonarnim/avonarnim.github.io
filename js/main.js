@@ -124,7 +124,7 @@ window.onload = function () {
       "Cauliflowerniaaaa (if you're reading this, I'm sorry)",
     ],
     [
-      "What's a buter manufacterer's favorite celestial body?",
+      "What's a butter manufacterer's favorite celestial body?",
       "The Milky Way!",
     ],
     [
