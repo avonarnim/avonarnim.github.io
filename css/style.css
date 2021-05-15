@@ -161,35 +161,39 @@ div.right p {
   }
   div.left {
     margin: 0.25rem 0;
-    right: 27.5%;
+    right: 26%;
   }
   div.right {
     margin: 0.25rem 0;
-    left: 27.5%;
+    left: 26%;
   }
 }
 
 @media only screen and (max-width: 580px) {
   div.left {
     margin: 0;
-    max-width: 180px;
-    right: 35%;
+    width: 140%;
+    max-width: 360px;
+    right: 50%;
   }
   div.right {
     margin: 0;
-    max-width: 180px;
-    left: 35%;
+    width: 140%;
+    max-width: 360px;
+    left: 50%;
   }
 }
 
 @media only screen and (max-width: 400px) {
   div.left {
     margin: 0;
-    max-width: 180px;
+    width: 140%;
+    max-width: 340px;
   }
   div.right {
     margin: 0;
-    max-width: 180px;
+    width: 140%;
+    max-width: 340px;
   }
 }
 
