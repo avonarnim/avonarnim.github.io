@@ -316,6 +316,14 @@ window.onload = function () {
       "- My dad",
     ],
     [
+      "People always say they peaked in high school or kindergarten. The thing is that I’m from Tennessee. I lived by the appalachians, and if you got to a nice hill early enough in the morning — before the haze from the highway obscured the view — you could see fifty peaks that you could hike in a week. And as far as I’m concerned, you can hit 7 peaks a day.",
+    ],
+    [
+      "It wasn’t personal",
+      "What is that supposed to mean? I’m so sick of that. All that means is that it wasn’t personal to you. But it was personal to me. It was personal to a lot of people",
+      "- From the movie You've Got Mail",
+    ],
+    [
       "Every map is a fiction. Every map offers choices. It's even possible to choose something beautiful.",
       "- D.J. Waldie, Holy Land",
     ],

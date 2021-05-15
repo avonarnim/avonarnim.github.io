@@ -140,9 +140,11 @@ div.right p {
     max-width: 400px;
   }
   div.left {
+    margin: 0.25rem 0;
     right: 27.5%;
   }
   div.right {
+    margin: 0.25rem 0;
     left: 27.5%;
   }
 }
@@ -151,11 +153,17 @@ div.right p {
   .header-section {
     margin: 5em auto;
     margin-left: 0;
+    top: 130px;
+  }
+  .response-section {
+    top: 340px;
   }
   div.left {
+    margin: 0.25rem 0;
     right: 27.5%;
   }
   div.right {
+    margin: 0.25rem 0;
     left: 27.5%;
   }
 }
