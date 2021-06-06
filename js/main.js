@@ -112,6 +112,10 @@ window.onload = function () {
   let currentSaying = 0;
 
   const jokes = [
+    [
+      "What do you call an aggressive, vaguely European body of water?",
+      "La goon",
+    ],
     ["What kind of nut is meant to be bartered?", "A cashew!"],
     [
       "What's the most affectionate fruit?",
@@ -254,7 +258,15 @@ window.onload = function () {
   ];
 
   const sayings = [
+    [
+      "When a man ain’t got no ideas of his own, he’d ought to be kind o’careful who he borrows ‘em from",
+      "- The Virginian",
+    ],
     ["You waste years by not being able to waste hours", "- Amos Tversky"],
+    [
+      "Do you think there ought to be fifteen varieties of good people? There ain’t fifteen. There’s one kind. And when I meet it, I respect it. It is not praying nor preaching that has ever caught me and made me ashamed of myself, but one or two people I have known that never said a superior word to me. They thought more o’ me than I desired, and that made me behave better than I naturally wanted to. And if ever I was to have a son, I would wish their lot to be to know one or two good folks mighty well",
+      "- The Virginian",
+    ],
     [
       "Music washes away from the soul the dust of everyday life",
       "- Berthold Auerbach",
