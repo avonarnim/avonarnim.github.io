@@ -259,13 +259,52 @@ window.onload = function () {
 
   const sayings = [
     [
+      "And if all others accepted the lie which the Party imposed -- if all records told the same tale -- then the lie passed into history and became truth... All that was needed was an unending series of victories over your own memory",
+      "- George Orwell",
+    ],
+    [
+      "Muscle is created by lifting things",
+      "that are designed to wiegh us down.",
+      "When your shoulders are heavy",
+      "stand up straight and call it exercise.",
+      "Life is a gym membership",
+      "with a really complicated cancellation policy.",
+      "- Rudy Francisco, Helium",
+    ],
+    [
+      "Choice is a great burden. The call to invent one's life, and to do it continuously, can sound unendurable. Totalitarian regimes aim to stamp out the possibility of choice, but what aspiring automcrats do is promise to relieve one of the need to choose.",
+      "- Masha Gessen, Stories of a Life",
+    ],
+    [
+      'In speaking about immigrants we tend to privilege choicelessness... We focus on the distinction between refugees and "economic migrants", without asking why the fear of hunger and destitution qualifies as a lesser reason for migration than the fear of imprisonment or death by gunshot wound',
+      "- Masha Gessen, Stories of a Life",
+    ],
+    [
+      "At the end of Heart of Darkness, Conrad describes at length the suffering of a mass murderer's widow, though he glossed over that of the murderer's victims... We invade your countries, destroy your economies, demolish your infrastructures, murder hundreds of thousands of your citizens, and a decade or so later we write beautifully restrained novels about how killing you made us cry.",
+      "- Rabih Alameddine, Comforting Myths",
+    ],
+    [
+      "The truth is: sometimes I am afraid of what I write. You should be a little afraid of the story you are telling, too. And if you're not afraid that someone won't like it, you're still not telling the truth",
+      "- Lacy M. Johnson, On Likability",
+    ],
+    [
+      "\"Paranoia is strange because it's simultaneously comforting and disturbing. It's disturbing to think people are spying on you, but it's also comforting to have an explanation for why your world sucks.\"",
+      "- Danny O'Brien, quoted in Jean Guerrero's My Father Says He's a \"Targeted Individual\"",
+    ],
+    [
       "When a man ain’t got no ideas of his own, he’d ought to be kind o’careful who he borrows ‘em from",
-      "- The Virginian",
+      "- Owen Wister, The Virginian",
+    ],
+    [
+      "Do you think there ought to be fifteen varieties of good people? There ain’t fifteen. There’s one kind. And when I meet it, I respect it. It is not praying nor preaching that has ever caught me and made me ashamed of myself, but one or two people I have known that never said a superior word to me. They thought more o’ me than I desired, and that made me behave better than I naturally wanted to. And if ever I was to have a son, I would wish their lot to be to know one or two good folks mighty well",
+      "- Owen Wister, The Virginian",
     ],
     ["You waste years by not being able to waste hours", "- Amos Tversky"],
     [
-      "Do you think there ought to be fifteen varieties of good people? There ain’t fifteen. There’s one kind. And when I meet it, I respect it. It is not praying nor preaching that has ever caught me and made me ashamed of myself, but one or two people I have known that never said a superior word to me. They thought more o’ me than I desired, and that made me behave better than I naturally wanted to. And if ever I was to have a son, I would wish their lot to be to know one or two good folks mighty well",
-      "- The Virginian",
+      "This one comes in two parts. It is from a book narrated by a butler reminiscing over his life.",
+      "Part 1: In looking back over my career thus far, my chief satisfaction derives from what I achieved during those years, and I am today nothing but proud and grateful to have been given such a privilege",
+      "Part 2: Surely it is enough that the likes of you and I at least *try* to make our small contribution count for something true and worthy. And if some of us are prepared to sacrifice much in life in order to pursue such aspirations, surely that is in itself, whatever the outcome, cause for pride and contentment",
+      "- Kazuo Ishiguro, The Remains of the Day",
     ],
     [
       "Music washes away from the soul the dust of everyday life",
@@ -284,6 +323,18 @@ window.onload = function () {
       "- D.J. Waldie, Holy Land",
     ],
     [
+      "What more can you expect of me than the stories I am now telling?",
+      "- D.J. Waldie, Holy Land",
+    ],
+    [
+      "At some point in your story grief presents itself. Now, for the first time, your room is empty, not merely unoccupied",
+      "- D.J. Waldie, Holy Land",
+    ],
+    [
+      "Every map is a fiction. Every map offers choices. It's even possible to choose something beautiful.",
+      "- D.J. Waldie, Holy Land",
+    ],
+    [
       "Don't go into a dark room to make big decisions",
       "Heard during the coronavirus pandemic",
     ],
@@ -298,14 +349,6 @@ window.onload = function () {
     [
       "If you smell smoke, it's because there's a fire",
       "From a trailer for a movie entitled The Gentlemen",
-    ],
-    [
-      "What more can you expect of me than the stories I am now telling?",
-      "- D.J. Waldie, Holy Land",
-    ],
-    [
-      "At some point in your story grief presents itself. Now, for the first time, your room is empty, not merely unoccupied",
-      "- D.J. Waldie, Holy Land",
     ],
     [
       "A lot of students ask me how much detail they should put in a project. I say enough that 5 years from now, you'll be able to read what you wrote and understand it",
@@ -334,10 +377,6 @@ window.onload = function () {
       "It wasn’t personal",
       "What is that supposed to mean? I’m so sick of that. All that means is that it wasn’t personal to you. But it was personal to me. It was personal to a lot of people",
       "- From the movie You've Got Mail",
-    ],
-    [
-      "Every map is a fiction. Every map offers choices. It's even possible to choose something beautiful.",
-      "- D.J. Waldie, Holy Land",
     ],
     ["You are the average of the people around you", "- Nanxi Liu"],
   ];
