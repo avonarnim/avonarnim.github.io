@@ -112,6 +112,18 @@ window.onload = function () {
   let currentSaying = 0;
 
   const jokes = [
+    ["What's Katniss's favorite chip?", "A Peeta chip!"],
+    [
+      "How do you fix a band whose lead singer just got his heart broken?",
+      "You give him a band-aid",
+    ],
+    ["Where do cowboys go on vacation?", "To the mooseum"],
+    [
+      "Ya know how a lot of engineering majors have to learn about the Fourier transform?",
+      "yeah?",
+      "Maybe it's because they're going through a four-year transform",
+    ],
+    ["Hey do you guys wanna get some boba?", "Yeah!", "Boba deez nuts"],
     [
       "What do you call an aggressive, vaguely European body of water?",
       "La goon",
