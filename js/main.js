@@ -112,6 +112,44 @@ window.onload = function () {
   let currentSaying = 0;
 
   const jokes = [
+    ["What do you call a visit from a hype beast plumber?", "A drip check!"],
+    [
+      "Which Harry Potter family has a history of respiratory issues?",
+      "The Wheezlys!",
+    ],
+    [
+      "What do you call a male talk show host who gives gifts to all his guests?",
+      "What?",
+      "Obruh",
+    ],
+    [
+      "Why do computer science majors all have nice eyebrows?",
+      "Because they all know how to thread",
+    ],
+    ["Which comedian thinks about their jokes the most?", "John Mull-aney"],
+    [
+      "Did you know most people think shadows are controversial?",
+      "Really?",
+      "Yeah, they're all like umbra",
+    ],
+    [
+      "Why is everyone really tense about meat consumption nowadays?",
+      "Probably because there's a lot at steak",
+    ],
+    ["What does a mermaid teacher wear at the beach?", "An algae-bra!"],
+    [
+      "What type of plant do you use to make a table?",
+      "A fern... you can't make ferniture without it",
+    ],
+    [
+      "What does Patrick Mahomes when he goes home for the holidays?",
+      "Ma home!",
+    ],
+    [
+      "Did you know that Chinese people actually hate Panda Express?",
+      "No way",
+      "Yeah, they call it all Teri-yucky chicken",
+    ],
     ["What's Katniss's favorite chip?", "A Peeta chip!"],
     [
       "How do you fix a band whose lead singer just got his heart broken?",
@@ -270,6 +308,64 @@ window.onload = function () {
   ];
 
   const sayings = [
+    [
+      "Is that... that's the end of the story?",
+      "I mean, it's not a story, it was like a detail",
+      "- Midnight in Paris",
+    ],
+    [
+      "Service to others is the rent you pay for your room here on earth",
+      "- Muhammad Ali",
+    ],
+    [
+      "It's always nice to be important but it's more important to be nice",
+      "- Dwayne Johnson",
+    ],
+    [
+      "They say nothing lasts forever but they're just scared it will last longer than they can love it",
+      "- Ocean Vuong, On Earth We're Briefly Gorgeous",
+    ],
+    [
+      "Let no one mistake us for the fruit of violence -- but that violence, having passed through the fruit, failed to spoil it.",
+      "- Ocean Vuong, On Earth We're Briefly Gorgeous",
+    ],
+    [
+      "Freedom, I am told, is nothing but the distance between the hunter and its prey.",
+      "- Ocean Vuong, On Earth We're Briefly Gorgeous",
+    ],
+    [
+      "Two languages cancel each other out, suggests Barthes, beckoning a third",
+      "- Ocean Vuong, On Earth We're Briefly Gorgeous",
+    ],
+    [
+      "With friends like that you don't need enemies",
+      "- Jeff in Thunderbolt & Lightfoot",
+    ],
+    [
+      "He was too simple to wonder when he had attained humility. But he knew he had attained it and he knew it was not disgraceful and it carried no loss of true pride",
+      "- Ernest Hemingway, The Old Man and the Sea",
+    ],
+    [
+      "First you borrow. Then you beg",
+      "- Ernest Hemingway, The Old Man and the Sea",
+    ],
+    [
+      "I have no luck anymore. But who knows? Maybe today. Every day is a new day. It is better to be lucky. But I would rather be exact. Then when luck comes you are ready.",
+      "- Ernest Hemingway, The Old Man and the Sea",
+    ],
+    [
+      "You are killing me, fish, the old man thought. But you have a right to. Never have I seen a greater, or more beautiful, or a calmer or more noble thing than you, brother. Come on and kill me. I do not care who kills who.",
+      "- Ernest Hemingway, The Old Man and the Sea",
+    ],
+    [
+      "'I wanted to take him fishing but I was too timid to ask him THen I asked you to ask him and you were too timid.'",
+      "'I know. It was a great mistake. He might have gone with us. Then we would have that for all of our lives.'",
+      "- Ernest Hemingway, The Old Man and the Sea",
+    ],
+    [
+      "Do not think about sin. It is much too late for that and there are people who are paid to do it. Let them think about it.",
+      "- Ernest Hemingway, The Old Man and the Sea",
+    ],
     [
       "And if all others accepted the lie which the Party imposed -- if all records told the same tale -- then the lie passed into history and became truth... All that was needed was an unending series of victories over your own memory",
       "- George Orwell",
