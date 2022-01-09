@@ -112,6 +112,18 @@ window.onload = function () {
   let currentSaying = 0;
 
   const jokes = [
+    [
+      "What do you call a Korean kid who likes early 2000s rap?",
+      "Seoulja Boy",
+      "Yes... also, Soju Boy",
+    ],
+    [
+      "Ya know lumber prices have gone up like 10x over the past decade",
+      "Oh really?",
+      "Yeah, it's so bad they're now making tables out of ferns and stuff",
+      "Ferns? Really??",
+      "Yeah, they call it ferniture",
+    ],
     ["What do you call a visit from a hype beast plumber?", "A drip check!"],
     [
       "Which Harry Potter family has a history of respiratory issues?",
@@ -308,6 +320,23 @@ window.onload = function () {
   ];
 
   const sayings = [
+    ["Que sera sera", "Miley Cyrus"],
+    [
+      "When you're a kid you cry because you feel lied to. Because life is unfair and you don't understand anything. And then as an adult you cry because life still isn't fair but you do understand it",
+      "- Jonathan Goldstein, Reply All ep. 16",
+    ],
+    [
+      "You give your children enough money to do something, but not enough to do nothing",
+      "- Matt in The Descendents",
+    ],
+    [
+      "If you look into the camera and you see something you recognize, don't click the shutter",
+      "- a mentor to Yasuhiro Wakabayashi",
+    ],
+    [
+      "A God that did everything we thought was right and good wouldn't be the creator of the universe. He would be our puppet. He wouldn't be our God. THere's more to everything than we can know",
+      "- Min Jin Lee, Pachinko",
+    ],
     [
       "Is that... that's the end of the story?",
       "I mean, it's not a story, it was like a detail",
