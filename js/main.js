@@ -113,6 +113,10 @@ window.onload = function () {
 
   const jokes = [
     [
+      "What do you call it when a computer tries flirting with someone?",
+      "You call it a *bit* awkward",
+    ],
+    [
       "What do you call a Korean kid who likes early 2000s rap?",
       "Seoulja Boy",
       "Yes... also, Soju Boy",
@@ -134,6 +138,7 @@ window.onload = function () {
       "What?",
       "Obruh",
     ],
+    ["What does a Korean pirate say when he's mad?", "Shi barghhhh"],
     [
       "Why do computer science majors all have nice eyebrows?",
       "Because they all know how to thread",
@@ -149,10 +154,6 @@ window.onload = function () {
       "Probably because there's a lot at steak",
     ],
     ["What does a mermaid teacher wear at the beach?", "An algae-bra!"],
-    [
-      "What type of plant do you use to make a table?",
-      "A fern... you can't make ferniture without it",
-    ],
     [
       "What does Patrick Mahomes when he goes home for the holidays?",
       "Ma home!",
@@ -320,7 +321,19 @@ window.onload = function () {
   ];
 
   const sayings = [
-    ["Que sera sera", "Miley Cyrus"],
+    [
+      "Pessimists are never accused of being naïve, no matter how wrong they are",
+      "- David Kang & Xinru Ma, Power Transitions: Thucydides Didn't Live in East Asia",
+    ],
+    [
+      "Democracy is  amethod of doing the impossible",
+      "- W.E.B. Du Bois, The African Roots of War",
+    ],
+    [
+      "If you were feeling generous, you could give your money to the poor; you cannot give your friends to the friendless",
+      "- Kwame Anthony Appiah, The Ethicist, The New York Times",
+    ],
+    ["Que sera sera", "- Miley Cyrus"],
     [
       "When you're a kid you cry because you feel lied to. Because life is unfair and you don't understand anything. And then as an adult you cry because life still isn't fair but you do understand it",
       "- Jonathan Goldstein, Reply All ep. 16",
@@ -334,7 +347,15 @@ window.onload = function () {
       "- a mentor to Yasuhiro Wakabayashi",
     ],
     [
-      "A God that did everything we thought was right and good wouldn't be the creator of the universe. He would be our puppet. He wouldn't be our God. THere's more to everything than we can know",
+      "Living every day in the presence of those who refuse to acknowledge your humanity takes great courage",
+      "- Min Jin Lee, Pachinko",
+    ],
+    [
+      "There's no such thing as a benevolent leader... You have to remember that no matter what, the men who are in charge are just men--so they're not much smarter than pigs. And we eat pigs.",
+      "- Min Jin Lee, Pachinko",
+    ],
+    [
+      "A God that did everything we thought was right and good wouldn't be the creator of the universe. He would be our puppet. He wouldn't be our God. There's more to everything than we can know",
       "- Min Jin Lee, Pachinko",
     ],
     [
@@ -387,7 +408,7 @@ window.onload = function () {
       "- Ernest Hemingway, The Old Man and the Sea",
     ],
     [
-      "'I wanted to take him fishing but I was too timid to ask him THen I asked you to ask him and you were too timid.'",
+      "'I wanted to take him fishing but I was too timid to ask him. Then I asked you to ask him and you were too timid.'",
       "'I know. It was a great mistake. He might have gone with us. Then we would have that for all of our lives.'",
       "- Ernest Hemingway, The Old Man and the Sea",
     ],
