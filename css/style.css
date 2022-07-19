@@ -15,6 +15,7 @@ html * {
 }
 
 html {
+  height: 100vh;
   font-size: 62.5%;
 }
 
@@ -22,7 +23,7 @@ body {
   font-size: 1.6rem;
   font-family: "Arial", sans-serif;
   color: white;
-  background: rgb(221, 221, 221);
+  background: rgb(181, 212, 255);
 }
 
 body > * {
@@ -33,15 +34,32 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: rgb(72, 72, 72);
+}
+
+.body-container,
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0%;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+div,
+div section {
+  z-index: 0;
+}
+
 .container {
-  background-image: url("../imgs/sky.jpeg");
-  background-position: right 50% top 20%;
+  background-position: right 50% top 0%;
   background-repeat: no-repeat;
   margin: 0 auto;
-  min-height: 900px;
   flex-grow: 1;
   width: 100%;
-  top: 50%;
+  top: 0%;
   left: 50%;
   -ms-transform: translate(0%, 0%);
   transform: translate(0%, 0%);
@@ -50,7 +68,7 @@ a {
 .buttons-section {
   margin: 60px auto;
   position: absolute;
-  top: 260px;
+  top: 15%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -59,8 +77,8 @@ a {
 .response-section {
   margin: 60px auto;
   position: relative;
-  width: 40%;
-  top: 33%;
+  width: 60%;
+  top: 25%;
 }
 
 button {
@@ -115,14 +133,117 @@ div.right p {
 
 .header-section {
   position: fixed;
-  top: 15%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
+  width: 80%;
+  text-align: center;
+  margin: 2em auto;
+  top: 10%;
+}
+
+.page-title {
+  position: static;
   width: 100%;
   text-align: center;
-  margin: 6em auto;
+  font-size: 1.5em;
+}
+
+.page-title p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  text-shadow: 1px 1px 1px black;
+}
+
+.page-content {
+  position: absolute;
+  width: 100%;
+  font-size: 2.2rem;
+  font-weight: normal;
+  color: rgb(72, 72, 72);
+  min-width: 100px;
+  font-family: "Inter", sans-serif;
+}
+
+.job-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.job-subtitle {
+  font-weight: bold;
+}
+
+.page-content .job {
+  width: 80%;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1em;
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: white;
+  color: black;
+  opacity: 80%;
+}
+
+.page-content .job .work-imgs {
+  text-align: center;
+  width: 100%;
+  height: 30% !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding: none !important;
+}
+
+.page-content .job .work-imgs-right {
+  text-align: center;
+  width: 100%;
+  height: 30% !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding: none !important;
+}
+
+.work-img-right {
+  text-align: center;
+  max-width: 48%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-img {
+  max-width: 48%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: white;
+  margin-top: 0.5em;
+  padding: 1em;
+}
+
+.body-section p {
+  font-size: 2.2rem;
+  font-weight: normal;
+  color: rgb(72, 72, 72);
+  padding: 0.1em;
+  min-width: 100px;
+  font-family: "Inter", sans-serif;
 }
 
 .header {
@@ -156,8 +277,12 @@ div.right p {
     margin-left: 0;
     top: 130px;
   }
+  .buttons-section {
+    top: 20%;
+  }
+
   .response-section {
-    top: 340px;
+    top: 25%;
   }
   div.left {
     margin: 0.25rem 0;
@@ -172,28 +297,50 @@ div.right p {
 @media only screen and (max-width: 580px) {
   div.left {
     margin: 0;
-    width: 140%;
+    width: fit-content;
     max-width: 360px;
-    right: 50%;
+    right: 30%;
   }
   div.right {
     margin: 0;
-    width: 140%;
+    width: fit-content;
     max-width: 360px;
-    left: 50%;
+    left: 30%;
+  }
+  .page-title {
+    font-size: 1em;
+  }
+  .buttons-section {
+    top: 30%;
+  }
+  .response-section {
+    top: 45%;
+  }
+  .work-img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+  .work-img-right {
+    width: 100%;
+    max-width: 100%;
+    display: block;
   }
 }
 
 @media only screen and (max-width: 400px) {
   div.left {
     margin: 0;
-    width: 140%;
+    width: fit-content;
     max-width: 340px;
   }
   div.right {
     margin: 0;
-    width: 140%;
+    width: fit-content;
     max-width: 340px;
+  }
+  .nav a {
+    font-size: 1em;
   }
 }
 
@@ -208,6 +355,7 @@ div.right p {
   text-align: center;
   left: 0;
   top: 0;
+  text-shadow: 2px 2px 2px black;
 }
 .words-wrapper b.is-visible {
   position: relative;
@@ -394,4 +542,32 @@ div.right p {
     -o-transform: translateZ(-20px) rotateX(-90deg);
     transform: translateZ(-20px) rotateX(-90deg);
   }
+}
+
+/* /navigation */
+.nav {
+  overflow: hidden;
+  background-color: rgb(181, 212, 255);
+}
+
+.nav a {
+  float: left;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.nav a:hover {
+  background-color: aliceblue;
+  color: black;
+  text-shadow: none;
+}
+
+.nav a.active {
+  background-color: rgb(143, 203, 255);
+  color: white;
+  text-shadow: none;
 }

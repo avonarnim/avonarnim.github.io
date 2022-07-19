@@ -12,34 +12,75 @@
 
     <meta name="generator" content="Hugo 0.79.0" />
     <title>Adam's Personal Site</title>
-    <link rel="icon" href="imgs/icon.jpeg" />
+    <link rel="icon" href="imgs/icon.png" />
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" , href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="js/modernizr-custom.js"></script>
     <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/welcome.js"></script>
   </head>
   <body>
+    <header>
+      <nav>
+        <div class="container-fluid nav">
+          <a aria-current="page" href="/index.html">Home</a>
+          <a href="/work.html">Work</a>
+          <a href="/jokesandquotes.html">Jokes 'n Quotes</a>
+        </div>
+      </nav>
+    </header>
     <div class="container">
-      <section class="header-section">
-        <h1 class="header letters rotate">
-          <span class="words-wrapper">
-            <b class="is-visible">Welcome</b>
-            <b>Hello</b>
-            <b>Howdy</b>
-          </span>
-        </h1>
-      </section>
-      <section class="buttons-section">
-        <span class="buttons">
-          <button class="button" id="jokes">Tell me a joke!</button>
-          <button class="button" id="sayings">Share some wisdom!</button>
-        </span>
-      </section>
-      <section class="response-section">
-        <div class="response"></div>
-      </section>
+      <div class="body-container">
+        <canvas id="cloudCanvas" width="100%" height="100%">
+          Your browser does not support the canvas element.
+        </canvas>
+        <script src="js/canvas.js"></script>
+      </div>
+      <div>
+        <section class="header-section">
+          <h1 class="header letters rotate">
+            <span class="words-wrapper">
+              <b class="is-visible">Welcome</b>
+              <b>Hello</b>
+              <b>Howdy</b>
+            </span>
+          </h1>
+        </section>
+        <section class="body-section">
+          <p>Hey! I'm <b>Adam von Arnim</b>. Welcome to my website!</p>
+          <p>
+            I'm a software engineer studying <b>CS & Applied Math</b> at USC.
+          </p>
+          <p>
+            Previously, I've worked at startups like Prediction Health doing
+            <b>audio ML and interoperability</b> and Blackbox Trading doing
+            <b>quantitative trading</b>. I've also worked on backend data
+            pipelines at Amazon and am currently working at <b>Microsoft</b> on
+            the SQL Engineering Systems team.
+          </p>
+          <p>
+            In school, I've helped
+            <b>co-found Quant SC</b> and been a part of several
+            <b>IoT projects at Makers</b>, including a bike-locating project, a
+            smart composting IoT device, and a dance-based song-recommendation
+            model. I also used to do <b>ecological data science research</b> at
+            the Nuzhdin Lab.
+          </p>
+          <p>
+            Outside of work, you can find me hiking in the Smokies, bouldering
+            at Vital, reading plaques at art museums, or skimming a book on my
+            roof.
+          </p>
+        </section>
+      </div>
     </div>
   </body>
 </html>

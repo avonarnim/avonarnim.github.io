@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A personal site filled with puns I hear or come up with. Also, some catchy phrases!"
+    />
+
+    <meta name="generator" content="Hugo 0.79.0" />
+    <title>Adam's Personal Site</title>
+    <link rel="icon" href="imgs/icon.png" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" , href="css/reset.css" />
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/welcome.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container-fluid nav">
+          <a aria-current="page" href="/index.html">Home</a>
+          <a href="/work.html">Work</a>
+          <a href="/jokesandquotes.html">Jokes 'n Quotes</a>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="body-container">
+        <canvas id="cloudCanvas" width="100%" height="100%">
+          Your browser does not support the canvas element.
+        </canvas>
+        <script src="js/canvas.js"></script>
+      </div>
+      <section class="page-title">
+        <p class="">
+          Most of my time is spent on things I can't really discuss... but read
+          on to find out about those things anyway B)
+        </p>
+      </section>
+      <div class="page-content">
+        <div class="job" id="microsoft">
+          <p class="job-title">Microsoft -- SWE Intern</p>
+          <p>
+            I'm currently working on the SQL Engineering systems team at
+            Microsoft. To explain the team, consider this scenario: hundreds of
+            engineers are contributing to SQL on a daily basis. With each
+            engineer comes, say, 1 new block of code per day. After a while,
+            code starts to break because of the occasional hiccup in one
+            engineer's commit. The team decides they need to start testing
+            aggressively to validate all this new code. Soon, you have over 2
+            million tests, and you can't actually run all tests on each new
+            block of code... You then decide to run different batches of 10K
+            tests on any new commit and eventually circle back to the same batch
+            of 10K tests so that -- over time -- you'll use the same test again.
+            If it was initially passing but is now failing, you now know that
+            somewhere between those two runs -- somewhere in that range of, say,
+            100 commits -- one commit broke the code. You then triangulate that
+            break and kick it out.
+          </p>
+          <p>
+            My job deals with extending this process to more sporadic test
+            results.
+          </p>
+        </div>
+        <div class="job" id="amazon">
+          <p class="job-title">Amazon -- SWD Intern</p>
+          <p>
+            I previously worked on the Amazon.com Selection and Catalog Systems
+            team, which is responsible for surfacing the millions of different
+            products in the world to a business team that eventually onboards
+            ideal products onto Amazon.
+          </p>
+          <p>
+            My job on the team was to implement a scalable serverless system
+            that detected and repaired inconsistencies between different data
+            sources. The end result of the project was that over 300k
+            production-environment inconsistencies were fixed.
+          </p>
+          <p>
+            Frontend development included setting up a dashboard, alarm system,
+            and ticketing system for the system's continual monitoring
+          </p>
+        </div>
+        <div class="job" id="quant">
+          <p class="job-title">
+            Quant SC -- Co-Founder, Project Lead, Senior Adviser
+          </p>
+          <p>
+            As a Co-Founder of Quant SC, I dipped my toes into frontend design
+            by setting up the club's
+            <a href="https://www.quantsc.org"><b>website</b></a> (integrated
+            with airtable for newsletter record-keeping); collaborated with a
+            design team to design the club's logo; managed semesterly project
+            system, lead technical workshops on version control, basic
+            programming, and trading; and helped establish a recruiting
+            pipeline.
+          </p>
+          <p>
+            Here, you'll find some high-level architecture and backtesting
+            results from one of my teams' projects from Fall 2021. At the time,
+            we were researching how to incorporate industry-specific news
+            sentiment into a cross-industry delayed-reaction ML-based trading
+            strategy.
+          </p>
+          <div class="work-imgs">
+            <img
+              class="work-img"
+              src="imgs/qsc-diagram.png"
+              alt="quant project diagram"
+            />
+            <img
+              class="work-img"
+              src="imgs/qsc-results.png"
+              alt="quant project results"
+            />
+          </div>
+        </div>
+        <div class="job" id="makers">
+          <p class="job-title">
+            Makers -- IoT/Backend Engineer + Audio-Visual ML
+          </p>
+          <p>
+            Makers is an IoT/embedded systems hacky-project-type of club. I've
+            been a part of three projects during my time there:
+          </p>
+          <p class="job-subtitle">Dude, Where's My Bike</p>
+          <p>
+            Have you ever had your bike stolen? I haven't, but I'm pretty sure
+            it sucks! I worked on this project, which had a main goal of
+            creating a bike-locating app ideal for bike-recovery as well as
+            recommending safe locations ideal for parking bikes.
+          </p>
+          <p>
+            My role on the team was setting up the GPS-enabled data source,
+            which came in the shape of a Boron Particle micro-controller.
+          </p>
+          <div class="work-imgs-right">
+            <img
+              class="work-img-right"
+              src="imgs/bike-diagram.png"
+              alt="bike diagram"
+              text-align="right"
+            />
+          </div>
+          <p class="job-subtitle">Compost-o-Matic</p>
+          <p>
+            Composting is the process of turning food scraps and other organic
+            material into nutrient-rich soil that can be used to fertilize
+            future crops. In other words, it's a great way to improve nutrient
+            cycling in communities that don't traditionally grow crops on an
+            industrial level (think university gardens!).
+          </p>
+          <p>
+            The only issue with this is that creating a healthy compost can be
+            hard! It requires the proper moisture content and sufficient but not
+            overly-sufficient heat. If these metrics go out-of-whack, the
+            compost can start producing methane and won't be environmentally
+            positive.
+          </p>
+          <p>
+            Compost-o-Matic aimed to improve the process of creating a healthy
+            compost pile by creating a smart-monitoring device. Pulling
+            experience from my previous project, Dude Where's My Bike, I set up
+            the initial datalink between the sensor-microcontroller to a web-app
+            dashboard reporting the sensor readings.
+          </p>
+          <div class="work-imgs">
+            <img
+              class="work-img"
+              src="imgs/compost.jpeg"
+              alt="compost-o-matic"
+            />
+            <img
+              class="work-img"
+              src="imgs/compost-dash.jpeg"
+              alt="compost dashboard"
+            />
+          </div>
+          <p class="job-subtitle">Reverse Choreography</p>
+          <p>
+            Consider the situation where a choreographer wants to use a new move
+            in a piece. They may either have to pace the move to match the music
+            that's already been chosen or they may have to search through
+            endless songs for some clip that matches the move.
+          </p>
+          <p>
+            This akin to giving a painter a warped canvas and saying to either
+            try to make it work or look for a better one in a pile of seemingly
+            all warped canvases.
+          </p>
+          <p>
+            To remedy this, a team and I worked to build a video
+            capture-to-music recommendation pipeline that interprets body
+            movement as the basis for suggesting potentially appropriate songs
+            to dance to.
+          </p>
+          <p>
+            How good are the recommendations? Hmu and judge for yourself! (in
+            all honesty, you'll probably be like "meh, pretty cool, but not
+            blown away")
+          </p>
+          <div class="work-imgs">
+            <img
+              class="work-img"
+              src="imgs/rev-chor-cap.png"
+              alt="rev choreo recording"
+            />
+            <img
+              class="work-img"
+              src="imgs/spotify.png"
+              alt="spotify results"
+            />
+          </div>
+          <p></p>
+        </div>
+        <div class="job" id="blackbox">
+          <p class="job-title">Blackbox Trading -- SWE</p>
+          <p>
+            As a strategy developer/SWE at this student-run prop-trading
+            startup, I was given the task of implementing a value-based
+            investing strategy as an auto-trader.
+          </p>
+          <p>
+            Through this experience, I was able to not only improve as a
+            developer, working with a new platform on time-series data, but also
+            able to dive deep into a business-focused topic that grounded all
+            decisions being made:
+          </p>
+          <p>
+            The main lesson I learned was that theory and results are both
+            important. The graphs shown here are pulled from an auto-trader that
+            (to my knowledge) is still being used to make trades on the market.
+          </p>
+          <div class="work-imgs">
+            <img
+              class="work-img"
+              src="imgs/blackbox-returns.png"
+              alt="blackbox backtest"
+            />
+            <img
+              class="work-img"
+              src="imgs/blackbox-leverage.png"
+              alg="blackbox leverage"
+            />
+          </div>
+        </div>
+        <div class="job" id="prediction">
+          <p class="job-title">Prediction Health -- AI + SWE Intern</p>
+          <p>
+            My first work experience in tech was at a healthcare tech startup
+            called Prediction Health. Being at a startup, the number and breadth
+            of tasks to handle was beyond what most 3-month internship or
+            semester-long club projects will offer you. For example, I spent the
+            first two weeks just making data intake systems responsive to more
+            third-party data output formats... boring stuff but a good way to
+            freshen up to basic software engineering!
+          </p>
+          <p>
+            My next couple weeks were potentially even less glamorous -- fixing
+            every single test (meaning over 100 tests spanning everything from
+            NLP processing pipelines to in-app notifications to authentication
+            to user-input) that was failing on the backend... again, gritty work
+            but undoubtedly a great way to learn a lot very fast
+          </p>
+          <p>
+            I finished off the internship working on evaluating speech-to-text
+            providers' accuracy and creating ML models that either attempted to
+            detect ambient noise or split up audio by speaker. This was my first
+            foray into what is largely considered cutting-edge
+          </p>
+          <div class="work-imgs">
+            <img
+              class="work-img"
+              src="imgs/ph-predictions.png"
+              alt="ph predictions"
+            />
+            <img
+              class="work-img"
+              src="imgs/ph-ambience.png"
+              alt="ph ambience"
+            />
+          </div>
+        </div>
+        <div class="job" id="asides">
+          <p class="job-title">Other Things</p>
+          <p class="job-subtitle">Melon Tunes</p>
+          <p>
+            Messing around with some more audio ML, I recently started working
+            on a project to take in audio data of someone tapping a watermelon
+            with the end goal being a recommendation on whether or not to buy
+            the watermelon based on predicted levels of crispness and sweetness.
+          </p>
+          <p>
+            The theme of a lot of my work is, thus, that I pursue sometimes
+            trivial things without hesitation. Feel free to reach out and ask
+            about any other projects I'm working on :)
+          </p>
+          <div class="work-imgs">
+            <img class="work-img" src="imgs/melon.png" alt="melon-header" />
+            <img class="work-img" src="imgs/melon-body.png" alt="melon body" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
