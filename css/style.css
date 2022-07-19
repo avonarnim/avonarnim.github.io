@@ -167,7 +167,6 @@ div.right p {
 
 .page-content div {
   background: white;
-  opacity: 80%;
   text-align: center;
   background-color: white;
   margin-top: 0.5em;
@@ -195,9 +194,8 @@ div.right p {
   padding: 1em;
   padding-left: 2em;
   padding-right: 2em;
-  background-color: white;
+  background-color: rgba(256, 256, 256, 0.8);
   color: black;
-  opacity: 80%;
 }
 
 .page-content .job .work-imgs {
