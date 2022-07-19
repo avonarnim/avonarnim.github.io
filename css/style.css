@@ -231,28 +231,6 @@ div.right p {
   margin-right: auto;
 }
 
-.body-section {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background-color: white;
-  margin-top: 0.5em;
-  padding: 1em;
-}
-
-.body-section p {
-  font-size: 2.2rem;
-  font-weight: normal;
-  color: rgb(72, 72, 72);
-  padding: 0.1em;
-  min-width: 100px;
-  font-family: "Inter", sans-serif;
-}
-
 .header {
   font-size: 6rem;
   line-height: 1.2;
@@ -348,6 +326,9 @@ div.right p {
   }
   .nav a {
     font-size: 1em;
+  }
+  .page-content div {
+    font-size: 0.7em;
   }
 }
 

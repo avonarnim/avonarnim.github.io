@@ -51,20 +51,20 @@
           <p class="job-title">Microsoft -- SWE Intern</p>
           <p>
             I'm currently working on the SQL Engineering systems team at
-            Microsoft. To explain the team, consider this scenario: hundreds of
-            engineers are contributing to SQL on a daily basis. With each
-            engineer comes, say, 1 new block of code per day. After a while,
-            code starts to break because of the occasional hiccup in one
-            engineer's commit. The team decides they need to start testing
-            aggressively to validate all this new code. Soon, you have over 2
-            million tests, and you can't actually run all tests on each new
-            block of code... You then decide to run different batches of 10K
-            tests on any new commit and eventually circle back to the same batch
-            of 10K tests so that -- over time -- you'll use the same test again.
-            If it was initially passing but is now failing, you now know that
-            somewhere between those two runs -- somewhere in that range of, say,
-            100 commits -- one commit broke the code. You then triangulate that
-            break and kick it out.
+            Microsoft. Hundreds of engineers contribute to SQL on a daily basis,
+            each frequently pushing a new block of code. After a while,
+            individual commits cause code to degrade. The team decides to start
+            testing aggressively to validate all this potentially faulty new
+            code. But with over 2 million tests, you can't actually run all
+            tests on each new block of code...
+          </p>
+          <p>
+            You then decide to run different test batches on any new commit and
+            eventually circle back to the same test batches so that -- over time
+            -- you'll use the same tests again. If it was initially passing but
+            is now failing, you now know that somewhere between those two runs
+            -- somewhere in that range of, say, 100 commits -- one commit broke
+            the code. You then triangulate that break and kick it out.
           </p>
           <p>
             My job deals with extending this process to more sporadic test
