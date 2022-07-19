@@ -66,19 +66,15 @@ div section {
 }
 
 .buttons-section {
-  margin: 60px auto;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  margin: 10px;
+  position: static;
+  text-align: center;
 }
 
 .response-section {
   margin: 60px auto;
-  position: relative;
+  position: static;
   width: 60%;
-  top: 25%;
 }
 
 button {
