@@ -220,7 +220,7 @@ window.onload = function () {
       "- David Kang & Xinru Ma, Power Transitions: Thucydides Didn't Live in East Asia",
     ],
     [
-      "Democracy is  amethod of doing the impossible",
+      "Democracy is a method of doing the impossible",
       "- W.E.B. Du Bois, The African Roots of War",
     ],
     [

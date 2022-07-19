@@ -158,6 +158,10 @@ div.right p {
   text-shadow: 1px 1px 1px black;
 }
 
+.page-title h1 {
+  text-shadow: 2px 2px 2px black;
+}
+
 .page-content {
   position: absolute;
   width: 100%;
