@@ -130,8 +130,9 @@ div.right p {
 .header-section {
   text-align: center;
   position: static;
-
+  top: 0%;
   width: 80%;
+  float: center;
   margin: 2em auto;
 }
 
