@@ -7,6 +7,33 @@ window.onload = function () {
 
   const jokes = [
     [
+      "That guy over there can tell the future!",
+      "... what's he gonna tell it?",
+    ],
+    [
+      "What kind of hay do you feed a religious English cow?",
+      "A Christian bale",
+    ],
+    ["What do you call a porta-potty with room for two?", "A porta partyyy"],
+    ["Wanna get 'za for lunch?", "What's 'za?", "Pizza!"],
+    ["I saw a website recently called sitcom.", "What do they sell?", "Chairs"],
+    [
+      "Do you know why online slide decks that have lots of transitions work so well?",
+      "Because they're e-motional!",
+    ],
+    ["What do you call the daily surf report?", "Current events!"],
+    [
+      "Cucina de la playa! Sounds pretty good!",
+      "*leans in to hear clanging pots*",
+      "Yeah, that does sound good!",
+    ],
+    [
+      "What does a Korean pirate say when he's mad?",
+      "Idk, what?",
+      "Shi barghhhhh",
+    ],
+    ["What did the surprised physicist say?", "What the flux!"],
+    [
       "What do you call it when a computer tries flirting with someone?",
       "You call it a *bit* awkward",
     ],
@@ -215,6 +242,23 @@ window.onload = function () {
   ];
 
   const sayings = [
+    [
+      "Never mind favorites. You're allowed to have one. The point is, you've been mine.",
+      "- Alison in Meet Joe Black",
+    ],
+    [
+      "Don't ever apologize for needing your family. Blood is blood. The only thing that matters",
+      "- Pop in Mayans M.C.",
+    ],
+    [
+      "In taking up another's cross, one must sometimes get crushed by the weight",
+      "- Paul Kalanithi",
+    ],
+    [
+      "Putting lifestyle first is how you find a job -- not a calling",
+      "- Paul Kalanithi",
+    ],
+    ["We have to believe that Sisyphus was happy", "- Albert Camus"],
     [
       "Pessimists are never accused of being naïve, no matter how wrong they are",
       "- David Kang & Xinru Ma, Power Transitions: Thucydides Didn't Live in East Asia",
