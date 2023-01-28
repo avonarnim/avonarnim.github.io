@@ -243,6 +243,79 @@ window.onload = function () {
 
   const sayings = [
     [
+      "I didn't have a script. But I smiled, and smiling was easy, no matter how strange and disorienting the street seemed to be",
+      "- Lin, arriving in India, in Shantaram",
+    ],
+    [
+      "No-one, and nothing, could really hurt me. No-one, and nothing, could make me very happy. I was tough, which is probably the saddest thing you can say about a man.",
+      "- Lin, describing the apathy he feels at the start of Shantaram",
+    ],
+    [
+      "Suffering, Khaderbai once told me, is the way we test our love, especially our love for God. I didn't know God, as he'd put it, but even as a disbeliever failed the test that day",
+      "I couldn't love God--anyone's God--and I couldn't forgive God.",
+      "- Lin, in Shantaram",
+    ],
+    [
+      "Justice is not only the way we punish those who do wrong. It is also the way we try to save them.",
+      "- Lin, in Shantaram",
+    ],
+    [
+      "His laughter as he walked away down the line of waiting men was brutally loud, but it was also weak and false",
+      "Cruelty is a kind of cowardice. Cruel laughter is the way cowards cry when they're not alone, and causing pain is how they grieve.",
+      "- Lin, describing prison overseers, in Shantaram",
+    ],
+    [
+      "The worst things that people do to us always make us feel ashamed. THe worst things that people do always strike at the part of us that wants to love the world. And a tiny part of the shame we feel, when we're violated, is shame at being human",
+      "- Lin, describing imprisonment, in Shantaram",
+    ],
+    [
+      "Most of us pretend, with greater or lesser success, that the minute we live in is something we can share. But the past for every one of us is a desert island; and those like Khaled, who find themselves marooned there, are always alone.",
+      "- Lin, in Shantaram",
+    ],
+    [
+      "There's a little arrogance at the heart of every better self... And there's an innocence, essential and unblinking, in the heart of every determination to serve.",
+      "- Lin, in Shantaram",
+    ],
+    [
+      "It isn't a secret, unless keeping it hurts",
+      "- Lin, quoting Karla, in Shantaram",
+    ],
+    [
+      "Sooner or later, fate puts us together with all the people, one by one, who show us what we could, and shouldn't let ourselves become",
+      "But fate loads the dice, of course, because we usually find ourselves loving or pitying almost all of those people. And it's impossible to despise someone who you honestly pity, and to shun someone you truly love.",
+      "- Lin, in Shantaram",
+    ],
+    [
+      "You know, I admonished him, Karla says that depression only happens to people who don't know how to be sad",
+      "Well she is wrong! he declared. I am an expret in the tristesse. It is the perfect, definitive human performance.",
+      "- Lin and Didier, in Shantaram",
+    ],
+    [
+      "It seemed, with Khader, thath he never felt or expressed any one emotion without feeling something of its opposite",
+      "- Lin, in Shantaram",
+    ],
+    [
+      "It's said that you can never go home again, and it's true enough, of course. But the opposite is also true. You must go back, and you always go back, and you can never stop going back, no matter how you try.",
+      "- Lin, in Shantaram",
+    ],
+    [
+      "In the end, when it was sure that Prabaker would die, and we all knew it, and we all accepted the fact that he had to die, we went through four days and nights of watching his brave little body suffer..",
+      "I loved him so much that in the end... I fell to my knees on a place marked by two wet footprints, and I begged God to let him die. And then he did die.",
+      "At first, when we truly love someone, our greatest fear is that the loved one will stop loving us.",
+      "What we should fear and dread, of course, is that we won't stop loving them, even after they're dead and gone. For I still love you with the whole of my heart, Prabaker. I still love you. And sometimes, my friend, the love that I have, and can't give to you, crushes the breath from my chest. Sometimes, even now, my heart is drowning in a sorrow that has no stars without you, and no laughter, and no sleep",
+      "- Lin, describing the loss of his first friend in India, in Shantaram",
+    ],
+    [
+      "assassin grief",
+      "The enemy stalks you, step for step, and knows your every move before you make it. The enemy is your own grieving heart, and when it strikes, it can't miss.",
+      "- Lin, in Shantaram",
+    ],
+    [
+      "Every human heartbeat is a universe of possibilities. Every human will has the power to transform its fate",
+      "I'd always thought fate was something unchangeable. BUt I suddenly realised that life is stranger and more beautiful than that.",
+      "- Lin, in Shantaram",
+    ],
+    [
       "Never mind favorites. You're allowed to have one. The point is, you've been mine.",
       "- Alison in Meet Joe Black",
     ],
